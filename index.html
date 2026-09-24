@@ -454,7 +454,12 @@
           <div>
             <span class="inline-flex items-center gap-2 bg-white/15 text-sm px-4 py-1.5 rounded-full mb-6"><i class="fa-solid fa-calculator"></i> حاسبة تقريبية</span>
             <h2 class="font-display text-3xl sm:text-4xl font-bold mb-4 leading-snug">احسب التكلفة التقريبية لمطبخك</h2>
-            <p class="text-wood-100 leading-relaxed">حرّك المؤشرات لتحصل على نطاق سعري مبدئي، ثم أرسل الطلب عبر الواتساب ليصلك عرض سعر دقيق ومجاني.</p>
+            <div class="inline-flex items-baseline gap-2 bg-white/15 rounded-2xl px-5 py-3 mb-5">
+              <span class="text-wood-100">يبدأ من</span>
+              <span class="font-display text-4xl font-bold">850</span>
+              <span class="text-wood-100">ر.س / للمتر الطولي</span>
+            </div>
+            <p class="text-wood-100 leading-relaxed">اختر النمط والخامة وحدّد الطول بالمتر الطولي لتحصل على نطاق سعري مبدئي، ثم أرسل الطلب عبر الواتساب ليصلك عرض سعر دقيق ومجاني.</p>
           </div>
           <ul class="mt-10 space-y-3 text-wood-50">
             <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-wood-200"></i> بدون أي التزام</li>
@@ -473,11 +478,11 @@
                 <span class="block text-center py-3 rounded-xl border-2 border-wood-100 peer-checked:border-wood-500 peer-checked:bg-wood-50 peer-checked:text-wood-700 font-medium transition">مودرن</span>
               </label>
               <label class="cursor-pointer">
-                <input type="radio" name="style" value="كلاسيك" data-factor="1.35" class="peer sr-only" />
+                <input type="radio" name="style" value="كلاسيك" data-factor="1.25" class="peer sr-only" />
                 <span class="block text-center py-3 rounded-xl border-2 border-wood-100 peer-checked:border-wood-500 peer-checked:bg-wood-50 peer-checked:text-wood-700 font-medium transition">كلاسيك</span>
               </label>
               <label class="cursor-pointer">
-                <input type="radio" name="style" value="نيوكلاسيك" data-factor="1.2" class="peer sr-only" />
+                <input type="radio" name="style" value="نيوكلاسيك" data-factor="1.15" class="peer sr-only" />
                 <span class="block text-center py-3 rounded-xl border-2 border-wood-100 peer-checked:border-wood-500 peer-checked:bg-wood-50 peer-checked:text-wood-700 font-medium transition">نيوكلاسيك</span>
               </label>
             </div>
@@ -486,10 +491,10 @@
           <div>
             <label for="material" class="block font-bold mb-3">الخامة</label>
             <select id="material" class="w-full rounded-xl border-2 border-wood-100 focus:border-wood-500 focus:ring-0 outline-none px-4 py-3 bg-white">
-              <option value="1400">MDF لاكر</option>
-              <option value="1900" selected>ألمنيوم بولي لاك</option>
-              <option value="2200">ألمنيوم اكريليك</option>
-              <option value="2800">خشب طبيعي</option>
+              <option value="850" selected>MDF لاكر — من 850 ر.س/م</option>
+              <option value="1100">ألمنيوم بولي لاك — من 1,100 ر.س/م</option>
+              <option value="1300">ألمنيوم اكريليك — من 1,300 ر.س/م</option>
+              <option value="1800">خشب طبيعي — من 1,800 ر.س/م</option>
             </select>
           </div>
 
@@ -504,8 +509,8 @@
 
           <div>
             <label class="flex items-center gap-3 cursor-pointer select-none">
-              <input id="countertop" type="checkbox" class="w-5 h-5 rounded accent-wood-500" checked />
-              <span>تضمين سطح عمل كوارتز</span>
+              <input id="countertop" type="checkbox" class="w-5 h-5 rounded accent-wood-500" />
+              <span>تضمين سطح عمل كوارتز <span class="text-charcoal-700/60 text-sm">(+300 ر.س للمتر الطولي)</span></span>
             </label>
           </div>
 
@@ -513,6 +518,7 @@
             <div>
               <div class="text-white/60 text-sm mb-1">التكلفة التقريبية المتوقعة</div>
               <div class="font-display text-2xl sm:text-3xl font-bold text-wood-200" id="estimate">—</div>
+              <div class="text-white/60 text-sm mt-2">سعر المتر الطولي: <span class="text-white font-bold" id="per-meter">—</span></div>
             </div>
             <i class="fa-solid fa-circle-info text-white/40 hidden sm:block" title="السعر النهائي يُحدَّد بعد الزيارة وأخذ المقاسات"></i>
           </div>
@@ -884,27 +890,28 @@
     const material = document.getElementById('material');
     const countertop = document.getElementById('countertop');
     const estimateEl = document.getElementById('estimate');
-    const fmt = (n) => Math.round(n / 500) * 500;
+    const fmt = (n) => Math.round(n / 50) * 50;
     const nf = new Intl.NumberFormat('ar-SA');
 
     function calc() {
       const len = +lengthInput.value;
       const factor = +document.querySelector('input[name="style"]:checked').dataset.factor;
-      const perMeter = +material.value * factor + (countertop.checked ? 650 : 0);
+      const perMeter = +material.value * factor + (countertop.checked ? 300 : 0);
       const base = len * perMeter;
       document.getElementById('length-val').textContent = len;
-      const low = fmt(base * 0.9), high = fmt(base * 1.15);
+      const low = fmt(base), high = fmt(base * 1.2);
+      document.getElementById('per-meter').textContent = `${nf.format(fmt(perMeter))} ر.س`;
       estimateEl.textContent = `${nf.format(low)} – ${nf.format(high)} ر.س`;
-      return { len, low, high };
+      return { len, low, high, perMeter: fmt(perMeter) };
     }
     document.getElementById('quote-form').addEventListener('input', calc);
     calc();
 
     document.getElementById('quote-form').addEventListener('submit', (e) => {
       e.preventDefault();
-      const { len, low, high } = calc();
+      const { len, low, high, perMeter } = calc();
       const style = document.querySelector('input[name="style"]:checked').value;
-      const mat = material.options[material.selectedIndex].text;
+      const mat = material.options[material.selectedIndex].text.split(' — ')[0];
       const name = document.getElementById('q-name').value.trim();
       const city = document.getElementById('q-city').value.trim();
       const msg = [
@@ -914,6 +921,7 @@
         `• النمط: ${style}`,
         `• الخامة: ${mat}`,
         `• الطول التقريبي: ${len} متر طولي`,
+        `• سعر المتر الطولي: ${nf.format(perMeter)} ر.س`,
         `• سطح كوارتز: ${countertop.checked ? 'نعم' : 'لا'}`,
         `• التقدير المبدئي: ${nf.format(low)} – ${nf.format(high)} ر.س`,
       ].filter(Boolean).join('\n');
