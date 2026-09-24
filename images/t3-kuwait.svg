@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="wallt3kuwait" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ece9e4"/><stop offset="1" stop-color="#d8d5cf"/>
+  </linearGradient>
+  <linearGradient id="floort3kuwait" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#a58b6d"/><stop offset="1" stop-color="#bda384"/>
+  </linearGradient>
+  <linearGradient id="ledt3kuwait" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff3d6" stop-opacity=".85"/><stop offset="1" stop-color="#fff3d6" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="glosst3kuwait" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vigt3kuwait" cx=".5" cy=".45" r=".75">
+    <stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/>
+  </radialGradient>
+  <radialGradient id="glowt3kuwait" cx=".5" cy="0" r="1">
+    <stop offset="0" stop-color="#ffe7b0" stop-opacity=".55"/><stop offset="1" stop-color="#ffe7b0" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="graint3kuwait" width="80" height="80" patternUnits="userSpaceOnUse">
+    <rect width="80" height="80" fill="#fbfbfa"/><path d="M0 3 Q 20 3.8 40 3 T 80 3" stroke="#bcbcbb" stroke-width="1.4" fill="none" opacity="0.27"/><path d="M0 10 Q 20 12.2 40 10 T 80 10" stroke="#bcbcbb" stroke-width="1.3" fill="none" opacity="0.51"/><path d="M0 17 Q 20 16.9 40 17 T 80 17" stroke="#bcbcbb" stroke-width="0.7" fill="none" opacity="0.50"/><path d="M0 24 Q 20 22.3 40 24 T 80 24" stroke="#bcbcbb" stroke-width="1.5" fill="none" opacity="0.26"/><path d="M0 31 Q 20 30.7 40 31 T 80 31" stroke="#bcbcbb" stroke-width="1.0" fill="none" opacity="0.44"/><path d="M0 38 Q 20 38.1 40 38 T 80 38" stroke="#bcbcbb" stroke-width="1.0" fill="none" opacity="0.39"/><path d="M0 45 Q 20 45.6 40 45 T 80 45" stroke="#bcbcbb" stroke-width="0.9" fill="none" opacity="0.35"/><path d="M0 52 Q 20 52.0 40 52 T 80 52" stroke="#bcbcbb" stroke-width="1.6" fill="none" opacity="0.28"/><path d="M0 59 Q 20 57.6 40 59 T 80 59" stroke="#bcbcbb" stroke-width="0.9" fill="none" opacity="0.47"/><path d="M0 66 Q 20 66.5 40 66 T 80 66" stroke="#bcbcbb" stroke-width="1.3" fill="none" opacity="0.39"/><path d="M0 73 Q 20 70.9 40 73 T 80 73" stroke="#bcbcbb" stroke-width="1.1" fill="none" opacity="0.55"/>
+  </pattern>
+  <pattern id="marblet3kuwait" width="400" height="80" patternUnits="userSpaceOnUse">
+    <rect width="400" height="80" fill="#c9b79c"/><path d="M273 0 Q 60 40 209 80" stroke="#9aa0a6" stroke-width="1.2" fill="none" opacity=".45"/><path d="M177 0 Q 337 40 225 80" stroke="#9aa0a6" stroke-width="0.5" fill="none" opacity=".45"/><path d="M301 0 Q 128 40 7 80" stroke="#9aa0a6" stroke-width="1.2" fill="none" opacity=".45"/><path d="M298 0 Q 173 40 250 80" stroke="#9aa0a6" stroke-width="1.4" fill="none" opacity=".45"/><path d="M395 0 Q 45 40 92 80" stroke="#9aa0a6" stroke-width="1.3" fill="none" opacity=".45"/><path d="M353 0 Q 181 40 14 80" stroke="#9aa0a6" stroke-width="0.5" fill="none" opacity=".45"/><path d="M141 0 Q 304 40 204 80" stroke="#9aa0a6" stroke-width="1.1" fill="none" opacity=".45"/>
+  </pattern>
+  <pattern id="tilet3kuwait" width="60" height="30" patternUnits="userSpaceOnUse">
+    <rect width="60" height="30" fill="#e5dfd4"/>
+    <path d="M0 30 H60 M0 0 V30" stroke="#c9c4ba" stroke-width="1.5"/>
+  </pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#wallt3kuwait)"/>
+<rect y="820" width="1600" height="180" fill="url(#floort3kuwait)"/>
+<line x1="0" y1="820" x2="-60" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="160" y1="820" x2="100" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="320" y1="820" x2="260" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="480" y1="820" x2="420" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="640" y1="820" x2="580" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="800" y1="820" x2="740" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="960" y1="820" x2="900" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="1120" y1="820" x2="1060" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="1280" y1="820" x2="1220" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<line x1="1440" y1="820" x2="1380" y2="1000" stroke="#967f64" stroke-width="1.5" opacity=".6"/>
+<rect x="80" y="380" width="1440" height="160" fill="url(#tilet3kuwait)"/>
+<rect x="83.0" y="113" width="134.0" height="264" rx="2" fill="#fbfbfa"/><rect x="83.0" y="113" width="134.0" height="264" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="83.0" y="113" width="134.0" height="264" fill="url(#glosst3kuwait)"/>
+<rect x="223.0" y="113" width="134.0" height="264" rx="2" fill="#fbfbfa"/><rect x="223.0" y="113" width="134.0" height="264" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="223.0" y="113" width="134.0" height="264" fill="url(#glosst3kuwait)"/>
+<rect x="363.0" y="113" width="134.0" height="264" rx="2" fill="#fbfbfa"/><rect x="363.0" y="113" width="134.0" height="264" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="363.0" y="113" width="134.0" height="264" fill="url(#glosst3kuwait)"/>
+<rect x="503.0" y="113" width="134.0" height="264" rx="2" fill="#fbfbfa"/><rect x="503.0" y="113" width="134.0" height="264" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="503.0" y="113" width="134.0" height="264" fill="url(#glosst3kuwait)"/>
+<rect x="980" y="180" width="520" height="12" fill="#e1e1e1"/>
+<rect x="980" y="280" width="520" height="12" fill="#e1e1e1"/>
+<rect x="1000" y="120" width="40" height="60" rx="8" fill="#e8e2d6"/>
+<rect x="1050" y="135" width="40" height="45" rx="8" fill="#c9b89a"/>
+<rect x="1120" y="110" width="40" height="70" rx="8" fill="#f5f1ea"/>
+<rect x="1300" y="130" width="40" height="50" rx="8" fill="#7c8b7a"/>
+<rect x="1360" y="116" width="40" height="64" rx="8" fill="#e8e2d6"/>
+<rect x="1440" y="140" width="40" height="40" rx="8" fill="#b88a5c"/>
+<ellipse cx="1020" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1090" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1160" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1230" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1300" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1370" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<ellipse cx="1440" cy="268" rx="26" ry="8" fill="#f3efe7" stroke="#d8d0c2"/>
+<rect x="770" y="110" width="60" height="200" fill="#c5c9cc"/>
+<polygon points="680,310 920,310 900,345 700,345" fill="#b1b4b7"/>
+<rect x="80" y="800" width="1440" height="20" fill="#8a8a89"/>
+<rect x="83.0" y="563" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="83.0" y="563" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="83.0" y="563" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="123.19999999999999" y="568" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="83.0" y="643" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="83.0" y="643" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="83.0" y="643" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="123.19999999999999" y="648" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="83.0" y="723" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="83.0" y="723" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="83.0" y="723" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="123.19999999999999" y="728" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="227.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="227.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="227.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="371.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="371.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="371.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="515.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="515.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="515.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="659.0" y="563" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="659.0" y="563" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="659.0" y="563" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="699.2" y="568" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="659.0" y="643" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="659.0" y="643" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="659.0" y="643" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="699.2" y="648" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="659.0" y="723" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="659.0" y="723" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="659.0" y="723" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="699.2" y="728" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="803.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="803.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="803.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="810.0" y="566" width="124.0" height="36" fill="#1e1f21" opacity=".75"/>
+<rect x="947.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="947.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="947.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="1091.0" y="563" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="1091.0" y="563" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="1091.0" y="563" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="1131.2" y="568" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="1091.0" y="643" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="1091.0" y="643" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="1091.0" y="643" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="1131.2" y="648" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="1091.0" y="723" width="138.0" height="74" rx="2" fill="#fbfbfa"/><rect x="1091.0" y="723" width="138.0" height="74" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="1091.0" y="723" width="138.0" height="74" fill="url(#glosst3kuwait)"/><rect x="1131.2" y="728" width="57.6" height="4" rx="2" fill="#2b2b2b"/>
+<rect x="1235.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="1235.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="1235.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="1379.0" y="563" width="138.0" height="234" rx="2" fill="#fbfbfa"/><rect x="1379.0" y="563" width="138.0" height="234" fill="none" stroke="#c3c3c3" stroke-width="1.5"/><rect x="1379.0" y="563" width="138.0" height="234" fill="url(#glosst3kuwait)"/>
+<rect x="70" y="536" width="1460" height="26" fill="#c9b79c"/>
+<rect x="70" y="558" width="1460" height="4" fill="#000" opacity=".15"/>
+<rect x="700" y="530" width="200" height="8" rx="2" fill="#1c1c1e"/>
+<path d="M 330 536 v -60 q 0 -26 26 -26 h 14" stroke="#9aa0a6" stroke-width="7" fill="none"/>
+<rect x="1180" y="486" width="46" height="50" rx="8" fill="#e9e4db"/><path d="M1190 486 q 2 -40 -30 -60 q 35 5 44 60" fill="#6f9a74"/><path d="M1210 486 q 10 -50 40 -64 q -26 30 -28 64" fill="#86b08a"/>
+<rect x="1300" y="500" width="70" height="36" rx="6" fill="#d7c3a4"/><rect x="1380" y="470" width="30" height="66" rx="4" fill="#fff" opacity=".8"/>
+<rect width="1600" height="1000" fill="url(#vigt3kuwait)"/>
+</svg>
